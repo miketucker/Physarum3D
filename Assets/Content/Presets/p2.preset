@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: p2
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 87ec81b28d4b6b9449a077e339860d2e,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: numberOfParticles
+    value: 524288
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: size.x
+    value: 128
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: size.y
+    value: 128
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: size.z
+    value: 128
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: shader
+    value: 
+    objectReference: {fileID: 7200000, guid: 9bc1970280b77234781236d1bd145e97, type: 3}
+  - target: {fileID: 0}
+    propertyPath: particlePositionMap
+    value: 
+    objectReference: {fileID: 8400000, guid: 4b29cb5ebffa61a4b908afa6420a8796, type: 2}
+  - target: {fileID: 0}
+    propertyPath: particleColorMap
+    value: 
+    objectReference: {fileID: 8400000, guid: 80e67c36d9a3ca24d8afdf75a5611a14, type: 2}
+  - target: {fileID: 0}
+    propertyPath: particleVelocityMap
+    value: 
+    objectReference: {fileID: 8400000, guid: e7479ffafa996014bb813e3e02318ef8, type: 2}
+  - target: {fileID: 0}
+    propertyPath: trailDecay
+    value: 0.996
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: sensorAngleDegrees.x
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: sensorAngleDegrees.y
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rotationAngleDegrees.x
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rotationAngleDegrees.y
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: randomRotationProbability
+    value: 0.054
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: respawnProbability
+    value: 0.01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: spawnRadius
+    value: 0.051
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: sensorOffsetDistance
+    value: 7.47
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: stepSize
+    value: 0.21
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: diffuseTrail
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: trailDiffuseSpeed
+    value: 0.151
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: trailRepulsion
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: centralPull
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: reinitialize
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: useSensorRotationMaster
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: sensorRotationMaster
+    value: 184
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: feeder
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: feedStrength
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: feedDistance
+    value: 0.1
+    objectReference: {fileID: 0}

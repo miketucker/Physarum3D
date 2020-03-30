@@ -1,18 +1,17 @@
 # Physarum3D
 
+Fork of [Barbelot's 3D Physarum repo](https://github.com/Barbelot/Physarum3D)
+No longer requires setup steps. Added some test scenes, one with particles, the other with geo. 
+Added VR support, some extra parameters, and started messing with some of the math.
+
 Unity implementation of the [Physarum Transport Network](https://www.mitpressjournals.org/doi/abs/10.1162/artl.2010.16.2.16202) from Jeff Jones in 3D.
+
+
+## Barbelot's Sample Content:
 
 [Result Video](https://vimeo.com/379589358)
 
 ![Result Image](https://benoitarbelot.files.wordpress.com/2020/01/physarum3d.png)
-
-# Setup
-
-- Download this repo or clone it inside a folder in your Unity project.
-- Add the PhysarumVolumeController.cs script to an object in your scene.
-- Assign the PhysarumVolume compute shader and particle position/color/velocity textures to the PhysarumVolumeController script.
-- Create a VFX Graph and with the SetPositionFromMap and SetColorFromMap blocks in the Update context.
-- Set ParticlePositionMap and ParticleColorMap in those blocks and switch their sampling mode to Sequential.
 
 # Technical Details
 
@@ -21,7 +20,7 @@ The particles positions and trail volume are computed with compute shaders.
 The particles are displayed using Unity Visual Effect Graph and the HDRP pipeline.
 The trail volume can be displayed through volumetric rendering using the VolumeRayCast shader.
 
-Tested with Unity 2019.3.0f1 and the corresponding HDRP/VFX Graph packages.
+Tested with Unity 2019.3.7f1 and the corresponding HDRP/VFX Graph packages.
 
 # Acknowledgments
 
