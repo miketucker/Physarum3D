@@ -1,17 +1,17 @@
 # Physarum3D
 
-Fork of [Barbelot's 3D Physarum repo](https://github.com/Barbelot/Physarum3D)
+Building on [Barbelot's 3D Physarum](https://github.com/Barbelot/Physarum3D)
 No longer requires setup steps. Added some test scenes, one with particles, the other with geo. 
 Added VR support, some extra parameters, and started messing with some of the math.
 
 Unity implementation of the [Physarum Transport Network](https://www.mitpressjournals.org/doi/abs/10.1162/artl.2010.16.2.16202) from Jeff Jones in 3D.
 
 
-## Barbelot's Sample Content:
+## Samples:
 
-[Result Video](https://vimeo.com/379589358)
+![Solid](https://github.com/miketucker/Physarum3D/raw/master/Screenshots/physarum4c.gif?raw=true)
 
-![Result Image](https://benoitarbelot.files.wordpress.com/2020/01/physarum3d.png)
+![Particles](https://github.com/miketucker/Physarum3D/raw/master/Screenshots/physarum5b.gif?raw=true)
 
 # Technical Details
 
